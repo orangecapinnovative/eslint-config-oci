@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/orangecapinnovative/eslint-oci.git"
+    "url": "git+https://github.com/orangecapinnovative/eslint-config-oci.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/orangecapinnovative/eslint-oci/issues"
+    "url": "https://github.com/orangecapinnovative/eslint-config-oci/issues"
   },
-  "homepage": "https://github.com/orangecapinnovative/eslint-oci#readme",
+  "homepage": "https://github.com/orangecapinnovative/eslint-config-oci#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.0.0",
-    "@typescript-eslint/parser": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.42.1",
+    "@typescript-eslint/parser": "^5.42.1",
     "eslint": "^8.27.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-import-resolver-typescript": "^3.5.2",
