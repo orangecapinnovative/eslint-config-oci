@@ -69,8 +69,6 @@ module.exports = {
     }],
     "no-shadow": "off",
     "@typescript-eslint/no-shadow": "error",
-    // TODO: Off this rule for now...it's better to edit codebase rather than disable this one
-    'import/no-cycle': 'off',
     'class-methods-use-this': 'off',
     'max-classes-per-file': 'off',
   },
