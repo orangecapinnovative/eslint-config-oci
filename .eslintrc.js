@@ -71,6 +71,13 @@ module.exports = {
     "@typescript-eslint/no-shadow": "error",
     'class-methods-use-this': 'off',
     'max-classes-per-file': 'off',
+    'max-len': ['error', 200, 2, {
+      ignoreUrls: true,
+      ignoreComments: false,
+      ignoreRegExpLiterals: true,
+      ignoreStrings: true,
+      ignoreTemplateLiterals: true,
+    }],
   },
   settings: {
     'import/parsers': {
