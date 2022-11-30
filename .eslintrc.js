@@ -78,6 +78,7 @@ module.exports = {
       ignoreStrings: true,
       ignoreTemplateLiterals: true,
     }],
+    'lines-between-class-members': 0
   },
   settings: {
     'import/parsers': {
