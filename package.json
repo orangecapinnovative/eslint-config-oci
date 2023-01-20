@@ -16,10 +16,12 @@
     "url": "https://github.com/orangecapinnovative/eslint-config-oci/issues"
   },
   "homepage": "https://github.com/orangecapinnovative/eslint-config-oci#readme",
+  "peerDependencies": {
+    "eslint": "^8.27.0"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.42.1",
     "@typescript-eslint/parser": "^5.42.1",
-    "eslint": "^8.27.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-import-resolver-typescript": "^3.5.2",
     "eslint-plugin-import": "^2.26.0"
